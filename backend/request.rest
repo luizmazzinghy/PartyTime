@@ -1,0 +1,92 @@
+POST  http://localhost:3000/api/services
+Content-Type: application/json
+
+ {
+    "name": "Decoração",
+    "description": "Escolha a decoração para a sua festa, e nós a montamos",
+    "price": 1400,
+    "image": "https://plus.unsplash.com/premium_photo-1674197235634-c2c4799d0714?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRlY29yYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+  }
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/64d24daef1c203f0878842e7
+
+###
+DELETE  http://localhost:3000/api/services/64d24daef1c203f0878842e7
+
+###
+PUT   http://localhost:3000/api/services/64d24d98f1c203f0878842e3
+Content-Type: application/json
+
+{
+    "name":"TESTE ATUALIZACAO ",
+    "description":"Alguma descricao",
+    "price":3250,
+    "image": "https://images.unsplash.com/photo-1691145697744-ba94b6950592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+}
+
+###
+POST  http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title":"Meu evento",
+    "author":" Luiz",
+    "description":"Uma festa de aniversário",
+    "budget":9000,
+    "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmVzdGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
+    "services": [
+        {
+          "name":"Algum serviço 1 ",
+          "description":"Alguma descricao",
+          "price":3500,
+          "image": "https://images.unsplash.com/photo-1691145697744-ba94b6950592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+        },
+        {
+          "name":" Algum serviço 2 ",
+          "description":"Alguma descricao",
+          "price":5000,
+          "image": "https://images.unsplash.com/photo-1691145697744-ba94b6950592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/64d26e6fc546b1698c10919f
+
+###
+DELETE http://localhost:3000/api/parties/64d3b013ca595ff5ace8f4be
+
+###
+PUT http://localhost:3000/api/parties/64d3b8a7984abb72ed3bafae
+Content-Type: application/json
+
+{
+    "title":"Meu evento",
+    "author":" Luiz",
+    "description":"Uma festa de aniversário",
+    "budget":10000,
+    "image": "https://images.unsplash.com/photo-1691168223030-5e5cadfe07d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80",
+    "services": [
+        {
+          "name":"Algum serviço 1 ",
+          "description":"Alguma descricao",
+          "price":3500,
+          "image": "https://images.unsplash.com/photo-1691145697744-ba94b6950592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+        },
+        {
+          "name":" Algum serviço 2 ",
+          "description":"Alguma descricao",
+          "price":5000,
+          "image": "https://images.unsplash.com/photo-1691145697744-ba94b6950592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+        }
+    ]
+}
+
+

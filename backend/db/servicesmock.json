@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Open Bar",
+    "description": "Todas as bebidas servidas de forma gratuita para os seus convidados",
+    "price": 2000,
+    "image": "https://images.unsplash.com/photo-1574056067299-a11c5b576e69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80"
+  },
+  {
+    "name": "Segurança",
+    "description": "Esquema de segurança completo para a sua festa.",
+    "price": 2500,
+    "image": "https://media.istockphoto.com/id/170590916/pt/foto/pol%C3%ADcia-segurando-rifle.jpg?s=612x612&w=0&k=20&c=cswud3EdDf1T_cwYAjtGE9jfGAIcFEBwXmurQQRNV-I="
+  },
+  {
+    "name": "Brinquedos",
+    "description": "Deixe a sua festa mais divertida para as crianças",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1553158399-3796bdbc82fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+  },
+  {
+    "name": "DJ",
+    "description": "Anime a sua fessta com música eletrônica!",
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1461784180009-21121b2f204c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+  },
+  {
+    "name": "Banda",
+    "description": "Contrate a nossa banda para animar a sua festa",
+    "price": 2750,
+    "image": "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhbmRhfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "name": "Buffet",
+    "description": "Buffet completo, variedade de comidas e bebidas ",
+    "price": 1850,
+    "image": "https://images.unsplash.com/photo-1593755768134-fa73738bcb77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
+  },
+  {
+    "name": "Garçons",
+    "description": "Garçons que servirão tantos aperitivos como bebidas aos convidados. ",
+    "price": 2100,
+    "image": "https://images.unsplash.com/photo-1516788875874-c5912cae7b43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2946&q=80"
+  },
+  {
+    "name": "Barman",
+    "description": "Equipe com barman para servir drinks criativos ao convidados. ",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1611266353853-d370b67187ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFybWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "name": "Fotógrafos",
+    "description": "Fotógrafos que vão registrar os melhores momentos da sua festa. ",
+    "price": 3000,
+    "image": "https://images.unsplash.com/photo-1592429141138-559164149da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1016&q=80"
+  },
+  {
+    "name": "Decoração",
+    "description": "Escolha a decoração para a sua festa, e nós a montamos",
+    "price": 1400,
+    "image": "https://plus.unsplash.com/premium_photo-1674197235634-c2c4799d0714?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRlY29yYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+  }
+]
